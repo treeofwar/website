@@ -1,0 +1,58 @@
+.CodingPigeon__navbar {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 2rem  20rem;
+}
+
+.CodingPigeon__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.CodingPigeon__navbar-links_logo {
+    margin-right: 2rem;
+    position: absolute;
+    top: 2%;
+    right: 95%
+    
+   
+}
+.CodingPigeon__navbar-links_logo img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.CodingPigeon__navbar-links_containers {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.CodingPigeon__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items:  center;
+}
+
+.CodingPigeon__navbar-links_containers p,
+.CodingPigeon__navbar-sign p,
+.CodingPigeon__navbar-menu_container p {
+    color: antiquewhite;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: 55px;
+    margin:0 4rem ;
+    cursor: pointer;
+}
+
+.CodingPigeon__navbar-sign button,
+.CodingPigeon__navbar-menu_container button {
+
+}
