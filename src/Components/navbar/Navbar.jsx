@@ -13,10 +13,10 @@ const Navbar = () => {
         </div>
         <div className="CodingPigeon__navbar-links_containers">
           <p>
-            <a href="#home">Home</a>
+            <Link to="/">Home</Link>
           </p>
           <p>
-            <a href="#whatCodingPigeon">What is coding pigeon</a>
+            <Link to="/CodingPigeon">What is coding pigeon</Link>
           </p>
           <p>
             <a href="#possibility">Languages</a>
