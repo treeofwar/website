@@ -1,11 +1,19 @@
 import React from "react";
-import "./whatCodingPigeon.css";
+
 import Navbar from "../../Components/navbar/Navbar";
-import "../../Components/navbar/navbar.css";
+import "../../App.css";
+import "./whatCodingPigeon.css";
 const WhatCodingPigeon = () => {
   return (
-    <div>
+    <div className="gradient__bg">
+      <div>
       <Navbar />
+      </div>
+      <body>
+        <div className="headercss">
+        <h1>hi</h1>
+        </div>
+      </body>
     </div>
   );
 };

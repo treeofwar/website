@@ -1,7 +1,7 @@
 import React from "react";
 import { RiMenu3Line, RiCloseLin } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import logo from "../../assets/chinchilla.jpg";
+//import logo from "../../assets/chinchilla.jpg";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="CodingPigeon__navbar">
       <div className="CodingPigeon__navbar-Links">
         <div className="CodingPigeon__navbar-links_logo">
-          <img src={logo} alt="chinchilla" />
+          {/*<img src={logo} alt="chinchilla" />*/}
         </div>
         <div className="CodingPigeon__navbar-links_containers">
           <p>

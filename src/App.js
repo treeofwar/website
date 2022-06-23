@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Navbar />{" "}
+        <Navbar />
         {/* these are the components which are like resuable pieces*/}
       </div>
       <Brand />

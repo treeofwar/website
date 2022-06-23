@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../../Components/navbar/Navbar";
 import "./blog.css";
-import "../../Components/navbar/navbar.css";
+import "../../App.css"
 const Blog = () => {
   return (
-    <div>
+    <div className="gradient__bg" >
       <Navbar />
-      <p>hi</p>
     </div>
+    
   );
 };
 
