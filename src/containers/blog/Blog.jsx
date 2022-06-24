@@ -63,7 +63,7 @@ const Blog = () => {
           </form>
         </div>
         <div className="video-container">
-          <iframe width={560} height={315} src="https://www.youtube.com/embed/zAlX1V3lK5s?controls=1&autoplay=1&mute=1&playlist=zAlX1V3lK5s&loop=1" frameBorder={0} allowFullScreen>
+          <iframe width={560} height={315} src="https://www.youtube.com/embed/EE-xtCF3T94?start=7" frameBorder={0} allowFullScreen>
           </iframe>
         </div>
         <div className="tablething">
