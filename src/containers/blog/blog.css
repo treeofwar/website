@@ -1,0 +1,60 @@
+table {
+    border: 2px solid red;
+    width: 15rem;
+    display: inline-table;
+    color: aqua;
+
+
+
+}
+
+td {
+    border-spacing: 2px 2px;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+th {
+
+
+    column-span: "4";
+    border: 2px solid black;
+
+}
+
+body {
+    background-image: url("../../assets/chinchilla.jpg");
+    
+}
+
+fieldset {
+    color: aqua;
+    height: 18rem;
+}
+
+.tablething {
+    display: inline-flex;
+    position: relative; top: -300px; left: 50px;
+}
+
+.video-container {
+    display: inline-flex;
+}
+
+.hi {
+    padding: 1%;
+    display: inline-flex;
+}
+.firstform {
+    background-image: url("../../assets/chinchilla.jpg");
+    display: inline-flex;
+    height: 310px;
+    position:relative; top: 50px; right: 370px;
+}
+.radiostuff {
+    background-color: orange;
+    display:inline-flex;
+    position: relative; top: -300px; 
+    
+}
